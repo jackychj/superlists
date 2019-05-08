@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do lists</title>
+    <link href="http://c.csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON" />
+</head>
+<body>
+    <h1>Start a new To-Do list</h1>
+    <form method="POST">
+        <input name="item_text" id="id_new_item" placeholder="Enter a to-do item" />
+         {% csrf_token %}
+    </form>
+
+</body>
+</html>

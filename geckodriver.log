@@ -1,0 +1,126 @@
+1557230126167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Eg9mnBDsidmM"
+1557230137746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557230137747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557230137747	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 6165, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6165, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6165, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6148, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6165, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6165, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6148, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6165, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6148, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6148, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6148, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6148, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 6165, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Child 6165, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Exiting due to channel error.
+[Child 6148, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Child 6148, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Exiting due to channel error.
+1557230266135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HrMGsbTHixjM"
+1557230273742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557230273743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557230273743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557230287658	Marionette	INFO	Listening on port 44915
+1557230287980	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557230293384	Marionette	INFO	Stopped listening on port 44915
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+JavaScript error: resource://services-common/kinto-offline-client.js, line 568: Error: getLastModified() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1557230479096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WrvFcElv9KKT"
+1557230483939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557230483941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557230483941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557230495975	Marionette	INFO	Listening on port 37513
+1557230496325	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1557230522139	Marionette	INFO	Stopped listening on port 37513
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1557230919496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZrpTcePt37cm"
+1557230924551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557230924552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557230924552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557230935284	Marionette	INFO	Listening on port 42327
+1557230935534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557230949912	Marionette	INFO	Stopped listening on port 42327
+1557231496393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UouyZh7vLu1f"
+1557231505649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557231505660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557231505660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 9431, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9431, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9431, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9431, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9431, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9431, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9431, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9431, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9431, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Child 9431, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Exiting due to channel error.
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 9416, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Child 9416, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-c7cYUt/firefox-66.0.3+linuxmint1+tessa/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+Exiting due to channel error.
+1557231937546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yrqwjtF1IXVn"
+1557231943622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557231943623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557231943623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557231962574	Marionette	INFO	Listening on port 34921
+1557231963169	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557231975725	Marionette	INFO	Stopped listening on port 34921
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1557233786670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.P4yISyVvLYgC"
+1557233790688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557233790689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557233790689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557233799204	Marionette	INFO	Listening on port 44519
+1557233800364	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557233810096	Marionette	INFO	Stopped listening on port 44519
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 103: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+1557234776542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N4UpcDPMZ15E"
+1557234779301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557234779302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557234779302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557234786381	Marionette	INFO	Listening on port 35515
+1557234786524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557234793821	Marionette	INFO	Stopped listening on port 35515
+1557235568944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BzJEjBj9HSxH"
+1557235570592	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557235570593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557235570594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557235582475	Marionette	INFO	Listening on port 33225
+1557235584156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557235595224	Marionette	INFO	Stopped listening on port 33225
+1557236543333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5Lpn0NQRahNv"
+1557236553654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557236553655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557236553655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Exiting due to channel error.
+Exiting due to channel error.
+1557237062653	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Y7IUtxv7kPSq"
+1557237066818	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557237066820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557237066820	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557237081984	Marionette	INFO	Listening on port 36777
+1557237082232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557237091641	Marionette	INFO	Stopped listening on port 36777
