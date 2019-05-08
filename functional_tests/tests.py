@@ -28,6 +28,7 @@ class NewVisitorTest(LiveServerTestCase):
 		# 她按回车键后，被带到了一个新URL
 		# 这个页面的待办事项清单中显示了“1: Buy peacock feathers”
 		inputbox.send_keys(Keys.ENTER)
+
 		edith_list_url = self.browser.current_url
 		self.assertRegex(edith_list_url, '/lists/.+')  #
 		self.check_for_row_in_list_table('1: Buy peacock feathers')
@@ -39,7 +40,6 @@ class NewVisitorTest(LiveServerTestCase):
 		inputbox.send_keys(Keys.ENTER)
 
 
-
 		# 页面再次更新，她的清单中显示了这两个待办事项
 		self.check_for_row_in_list_table('1: Buy peacock feathers')
 		self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
@@ -48,7 +48,7 @@ class NewVisitorTest(LiveServerTestCase):
 		## 确保伊迪丝的信息不会从cookie中泄露出来
 		self.browser.quit()
 
-		
+
 		self.browser = webdriver.Chrome()
 		# 弗朗西斯访问首页
 		# 页面中看不到伊迪丝的清单
@@ -61,6 +61,7 @@ class NewVisitorTest(LiveServerTestCase):
 		inputbox = self.browser.find_element_by_id('id_new_item')
 		inputbox.send_keys('Buy milk')
 		inputbox.send_keys(Keys.ENTER)
+
 		# 弗朗西斯获得了他的唯一URL
 		francis_list_url = self.browser.current_url
 		self.assertRegex(francis_list_url, '/lists/.+')
