@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from django.test import TestCase
-class NewVisitorTest(TestCase):
+from django.test import LiveServerTestCase
+class NewVisitorTest(LiveServerTestCase):
 	def setUp(self):
 		self.browser = webdriver.Chrome()
 		self.browser.implicitly_wait(5)
@@ -47,6 +47,8 @@ class NewVisitorTest(TestCase):
 		## 我们使用一个新浏览器会话
 		## 确保伊迪丝的信息不会从cookie中泄露出来
 		self.browser.quit()
+
+		
 		self.browser = webdriver.Chrome()
 		# 弗朗西斯访问首页
 		# 页面中看不到伊迪丝的清单
