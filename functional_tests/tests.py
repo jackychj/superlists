@@ -28,8 +28,6 @@ class NewVisitorTest(LiveServerTestCase):
 		# 她按回车键后，被带到了一个新URL
 		# 这个页面的待办事项清单中显示了“1: Buy peacock feathers”
 		inputbox.send_keys(Keys.ENTER)
-		import time
-		time.sleep(5)
 		edith_list_url = self.browser.current_url
 		self.assertRegex(edith_list_url, '/lists/.+')  #
 		self.check_for_row_in_list_table('1: Buy peacock feathers')
@@ -49,7 +47,7 @@ class NewVisitorTest(LiveServerTestCase):
 		## 我们使用一个新浏览器会话
 		## 确保伊迪丝的信息不会从cookie中泄露出来
 		self.browser.quit()
-		self.browser = webdriver.Firefox()
+		self.browser = webdriver.Chrome()
 		# 弗朗西斯访问首页
 		# 页面中看不到伊迪丝的清单
 		self.browser.get(self.live_server_url)

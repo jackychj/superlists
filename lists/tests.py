@@ -77,5 +77,4 @@ class HomePageTest(LiveServerTestCase):
 class ListViewTest(LiveServerTestCase):
     def test_use_list_template(self):
         response=self.client.get('/lists/the-only-list-in-the-world/')
-        print('-----------------------The response is ---------------------\n', response.content.decode(),'--------------------------------------------')
         self.assertTemplateUsed(response,'list.html')
