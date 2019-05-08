@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from django.test import LiveServerTestCase
-class NewVisitorTest(LiveServerTestCase):
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+class NewVisitorTest(StaticLiveServerTestCase):
 	def setUp(self):
 		self.browser = webdriver.Chrome()
 		self.browser.implicitly_wait(5)
@@ -28,7 +28,8 @@ class NewVisitorTest(LiveServerTestCase):
 		# 她按回车键后，被带到了一个新URL
 		# 这个页面的待办事项清单中显示了“1: Buy peacock feathers”
 		inputbox.send_keys(Keys.ENTER)
-
+		import time
+		#time.sleep(10)
 		edith_list_url = self.browser.current_url
 		self.assertRegex(edith_list_url, '/lists/.+')  #
 		self.check_for_row_in_list_table('1: Buy peacock feathers')
@@ -46,6 +47,7 @@ class NewVisitorTest(LiveServerTestCase):
 		# 现在一个叫作弗朗西斯的新用户访问了网站
 		## 我们使用一个新浏览器会话
 		## 确保伊迪丝的信息不会从cookie中泄露出来
+		time.sleep(10)
 		self.browser.quit()
 
 
