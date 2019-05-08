@@ -76,6 +76,6 @@ class HomePageTest(LiveServerTestCase):
         self.assertEqual(Item.objects.count(),0)
 class ListViewTest(LiveServerTestCase):
     def test_use_list_template(self):
-        response=self.client.get('/list/the-only-list-in-the-world/')
-        print("---------------the response is ----------------",response.content.decode())
+        response=self.client.get('/lists/the-only-list-in-the-world/')
+        print('-----------------------The response is ---------------------\n', response.content.decode(),'--------------------------------------------')
         self.assertTemplateUsed(response,'list.html')
