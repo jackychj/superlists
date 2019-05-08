@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from django.test import LiveServerTestCase
-class NewVisitorTest(LiveServerTestCase):
+from django.test import TestCase
+class NewVisitorTest(TestCase):
 	def setUp(self):
 		self.browser = webdriver.Chrome()
 		self.browser.implicitly_wait(5)
