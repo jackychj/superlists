@@ -62,7 +62,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 		# 现在一个叫作弗朗西斯的新用户访问了网站
 		## 我们使用一个新浏览器会话
 		## 确保伊迪丝的信息不会从cookie中泄露出来
-		time.sleep(10)
+		time.sleep(3)
 		self.browser.quit()
 
 
