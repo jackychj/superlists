@@ -614,3 +614,10 @@ JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 105: E
 1560177673740	Marionette	WARN	TLS certificate errors will be ignored for this session
 1560177679532	Marionette	INFO	Stopped listening on port 37909
 [Parent 24802, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-AGcKNI/firefox-67.0+linuxmint2+tessa/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1560264480897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cLZAuATiHpjV"
+1560264482249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560264482251	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560264482251	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560264488856	Marionette	INFO	Listening on port 43913
+1560264488931	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560264495452	Marionette	INFO	Stopped listening on port 43913
