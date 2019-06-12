@@ -21,8 +21,8 @@
                         />
                         {% csrf_token %}
                         {% if error %}
-                            <div class="form-group has-error">
-                                <span class="help-block">{{ error }}</span>
+                            <div class="form-group">
+                                <span id="errormsg" class="form-text text-muted">{{ error }}</span>
                             </div>
                         {% endif %}
                     </form>
