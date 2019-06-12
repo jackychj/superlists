@@ -1,5 +1,5 @@
 from .base import FunctionalTest
-
+import time
 
 class ItemValidationTest(FunctionalTest):
 
@@ -10,6 +10,7 @@ class ItemValidationTest(FunctionalTest):
         self.browser.find_element_by_id('id_new_item').send_keys('\n')
         # 首页刷新了,显示一个错误消息
         # 提示待办事项不能为空
+        time.sleep(3)
         error = self.browser.find_element_by_css_selector('.has-error')
         self.assertEqual(error.text,"You can't have an empty list item")
         # 她输入一些文字,然后再次提交,这次没问题了
