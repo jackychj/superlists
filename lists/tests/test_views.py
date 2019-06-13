@@ -3,6 +3,7 @@ from django.test import TestCase
 from django.http import HttpRequest
 from lists.views import home_page
 from lists.models import Item, List
+from lists.forms import ItemForm
 from django.template.loader import render_to_string
 from django.utils.html import escape
 import re
@@ -10,11 +11,14 @@ import time
 # Create your tests here.
 
 class HomePageTest(TestCase):
+    maxDiff = None
+
     @staticmethod
     def remove_csrf(html_code):
         csrf_regex = r'<input[^>]+csrfmiddlewaretoken[^>]+>'
         return re.sub(csrf_regex, '', html_code)
 
+    ''''   old test methods, replaced by new ones
     def test_root_url_resolves_to_home_page_view(self):
         found=resolve('/')
         self.assertEqual(found.func,home_page)
@@ -22,15 +26,25 @@ class HomePageTest(TestCase):
     def test_home_page_returns_correct_html(self):
         request = HttpRequest()
         response_content = home_page(request).content.decode()
-        response_content=self.remove_csrf(response_content)
-        expected_html = render_to_string('home.html',request=request)
+        response_content = self.remove_csrf(response_content)
+        expected_html = render_to_string('home.html', {'form': ItemForm()})
         expected_html=self.remove_csrf(expected_html)
-        self.assertEqual(response_content, expected_html)
+        self.assertMultiLineEqual(response_content, expected_html)
+
 
     def test_home_page_only_saves_items_when_necessary(self):
         request=HttpRequest()
         home_page(request)
-        self.assertEqual(Item.objects.count(),0)
+        self.assertEqual(Item.objects.count(), 0)
+    '''
+
+    def test_home_page_renders_home_template(self):
+        response = self.client.get('/')
+        self.assertTemplateUsed(response, 'home.html')
+
+    def test_home_page_uses_item_form(self):
+        response = self.client.get('/')
+        self.assertIsInstance(response.context['form'],ItemForm)
 
 
 class ListViewTest(TestCase):
