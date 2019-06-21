@@ -3,6 +3,7 @@ from lists.models import Item, List
 
 
 EMPTY_LIST_ERROR = "You can't have an empty list item"
+DUPLICATE_ITEM_ERROR = "You've already got this in your list"
 
 
 class ItemForm(forms.models.ModelForm):
@@ -22,3 +23,8 @@ class ItemForm(forms.models.ModelForm):
         error_messages = {
             'text': {'required': EMPTY_LIST_ERROR}
         }
+
+
+class ExistingListItemForm(ItemForm):
+    def __init__(self, for_list, *args, **kwargs):
+        super().__init__(*args, **kwargs)
