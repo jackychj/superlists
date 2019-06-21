@@ -48,11 +48,15 @@ class ItemValidationTest(FunctionalTest):
         inputbox=self.get_item_input_box()
         inputbox.send_keys('Buy wellies')
         inputbox.send_keys(Keys.ENTER)
+        time.sleep(3)
+
         self.check_for_row_in_list_table('1: Buy wellies')
         # 她不小心输入了一个重复的待办事项
         inputbox=self.get_item_input_box()
         inputbox.send_keys('Buy wellies')
         inputbox.send_keys(Keys.ENTER)
+        time.sleep(3)
+
         # 她看到一条有帮助的错误消息
         self.check_for_row_in_list_table('1: Buy wellies')
         error = self.browser.find_element_by_id('errormsg')
