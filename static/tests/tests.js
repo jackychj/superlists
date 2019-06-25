@@ -1,5 +1,4 @@
 QUnit.test("errors should be hidden on keypress", function(assert){
-
     $("input").trigger("keypress");
     assert.equal($("#errormsg").is(":visible"), false);
 });
