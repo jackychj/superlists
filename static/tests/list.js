@@ -1,5 +1,6 @@
-$("input").on("keypress", function() {
-    if (document.getElementById("errormsg")&& $("input").val!='') {
-        $("#errormsg").hide();
-    }
-});
+    $("input").on("keypress", function() {
+        if (document.getElementById("errormsg") && $("input").val != '') {
+            $("#errormsg").hide();
+        }
+    });
+
