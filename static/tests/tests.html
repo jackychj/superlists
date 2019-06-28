@@ -9,7 +9,7 @@
         <div id="qunit"></div>
         <div id="qunit-fixture">
             <form>
-                <input name="text"/>
+                <input name="text" id="in_text"/>
                 <span id="errormsg">Error text</span>
             </form>
         </div>
@@ -18,7 +18,7 @@
         <script src="list.js"></script>
         <script>
              QUnit.test("errors should be hidden on keypress", function(assert){
-                $("input").trigger("keypress");
+                $("input#in_text").trigger("keypress");
                 assert.equal($("#errormsg").is(":visible"), false);
             });
             QUnit.test("errors not be hidden unless there is keypress", function(assert) {
