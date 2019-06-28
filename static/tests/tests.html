@@ -5,20 +5,19 @@
         <title>Javascript tests</title>
         <link rel="stylesheet" href="qunit.css">
     </head>
-        lists/static/tests/tests.html
     <body>
         <div id="qunit"></div>
         <div id="qunit-fixture">
             <form>
-                <input name="text" />
+                <input name="text"/>
                 <span id="errormsg">Error text</span>
             </form>
         </div>
-        <script src="list.js"></script>
-        <script src="../js/jquery.js"></script>
+        <script src="jquery.js"></script>
         <script src="qunit.js"></script>
+        <script src="list.js"></script>
         <script>
-            QUnit.test("errors should be hidden on keypress", function(assert){
+             QUnit.test("errors should be hidden on keypress", function(assert){
                 $("input").trigger("keypress");
                 assert.equal($("#errormsg").is(":visible"), false);
             });
